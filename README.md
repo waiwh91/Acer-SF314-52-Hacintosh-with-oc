@@ -9,10 +9,15 @@
 ## 硬件：
 
 CPU: I5-8250U
+
 显卡：UHD620
+
 网卡：INTEL 7265
+
 触摸板：i2c触摸板
+
 硬盘：intel 600p
+
 
 ## 能够正常工作的：
 
@@ -54,10 +59,15 @@ but i have make it more perfect XD
 
 ## Hardware：
 CPU: I5-8250U
+
 GPU：UHD620
+
 NetCard：INTEL 7265
+
 Touchpad：i2c Touchpad
+
 NVME：intel 600p
+
 
 ## Working：
 
