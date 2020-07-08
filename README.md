@@ -6,13 +6,15 @@
 
 本引导程序在tonymacx论坛上的[efi](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh/blob/master/README.md)上进行了修改(主要原因是懒得搞voodooi2c的ssdt了白嫖真香)
 
-##硬件：
+## 硬件：
+
 CPU: I5-8250U
 显卡：UHD620
 网卡：INTEL 7265
 触摸板：i2c触摸板
 硬盘：intel 600p
-##能够正常工作的：
+
+## 能够正常工作的：
 
 1.uhd620核显。 通过oc注入ID实现
 
@@ -30,7 +32,8 @@ CPU: I5-8250U
 
 8.睡眠，变频均正常
 
-##不能够正常工作的
+## 不能够正常工作的
+
 1.左侧最后一个USB口子：接上去连电都不能充
 
 2.SD卡读卡器：用不了
@@ -43,7 +46,7 @@ CPU: I5-8250U
 
 
 
-#This OpenCore EFI is for the 2018 Acer Swift 3 laptop 
+# This OpenCore EFI is for the 2018 Acer Swift 3 laptop 
 
 this efi is based on [efi](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh/blob/master/README.md)
 
@@ -56,25 +59,25 @@ NetCard：INTEL 7265
 Touchpad：i2c Touchpad
 NVME：intel 600p
 
-##Working：
+## Working：
 
 1.uhd620
 
 2.SoundCard ALC255
 
-*3.The build-in Intel WIFI -   USE [itlwm](https://github.com/OpenIntelWireless/itlwm)
+* 3.The build-in Intel WIFI -   USE [itlwm](https://github.com/OpenIntelWireless/itlwm)
 
   you can use the Heliport app in the folder to connect to wifi
 
 4.i2c touchpad：smooth
 
-*5.FN + [up/down/left/right] to control the volume and brightness : work with DSDT.aml
+* 5.FN + [up/down/left/right] to control the volume and brightness : work with DSDT.aml
 
-*6.intel 600p NVME: USE Hackrnvme + SSDT to solve the problem (actually the hackrnvme is for 10.12, however it makes the 600p more stable
+* 6.intel 600p NVME: USE Hackrnvme + SSDT to solve the problem (actually the hackrnvme is for 10.12, however it makes the 600p more stable
 
   with the original IONvmeFamily, it's very likely to cause a kernel panic.
   
-##Not working:
+## Not working:
 
 1. the second USB port in the left : Not even charging
 
@@ -83,7 +86,7 @@ NVME：intel 600p
 3.SD Card Reader
 
 
-##Not Tested
+## Not Tested
 
 1.HDMI
 
