@@ -52,7 +52,7 @@ this efi is based on [efi](https://github.com/FallenChromium/Acer-Swift3-2018-ha
 
 but i have make it more perfect XD
 
-##Hardware：
+## Hardware：
 CPU: I5-8250U
 GPU：UHD620
 NetCard：INTEL 7265
@@ -65,15 +65,15 @@ NVME：intel 600p
 
 2.SoundCard ALC255
 
-* 3.The build-in Intel WIFI -   USE [itlwm](https://github.com/OpenIntelWireless/itlwm)
+*3.The build-in Intel WIFI -   USE [itlwm](https://github.com/OpenIntelWireless/itlwm)
 
   you can use the Heliport app in the folder to connect to wifi
 
 4.i2c touchpad：smooth
 
-* 5.FN + [up/down/left/right] to control the volume and brightness : work with DSDT.aml
+*5.FN + [up/down/left/right] to control the volume and brightness : work with DSDT.aml
 
-* 6.intel 600p NVME: USE Hackrnvme + SSDT to solve the problem (actually the hackrnvme is for 10.12, however it makes the 600p more stable
+*6.intel 600p NVME: USE Hackrnvme + SSDT to solve the problem (actually the hackrnvme is for 10.12, however it makes the 600p more stable
 
   with the original IONvmeFamily, it's very likely to cause a kernel panic.
   
