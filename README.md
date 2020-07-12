@@ -6,6 +6,8 @@
 
 本引导程序在tonymacx论坛上的[efi](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh/blob/master/README.md)上进行了修改(主要原因是懒得搞voodooi2c的ssdt了白嫖真香)
 
+## 没有更换任何硬件
+
 ## 硬件：
 
 CPU: I5-8250U
@@ -33,9 +35,11 @@ CPU: I5-8250U
 
 *6.intel 600p硬盘：修复了掉盘卡顿的问题：通过hackrnvme+ssdt实现
 
-7.摄像头
+*7.通过null ethernet+ssdt修复因为没有有线网卡导致的App Store问题
 
-8.睡眠，变频均正常
+8.摄像头
+
+9.睡眠，变频均正常
 
 ## 不能够正常工作的
 
@@ -56,6 +60,8 @@ CPU: I5-8250U
 this efi is based on [efi](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh/blob/master/README.md)
 
 but i have make it more perfect XD
+
+## No Hardware Replaced , all orignal
 
 ## Hardware：
 CPU: I5-8250U
@@ -86,6 +92,8 @@ NVME：intel 600p
 *6.intel 600p NVME: USE Hackrnvme + SSDT to solve the problem (actually the hackrnvme is for 10.12, however it makes the 600p more stable
 
   with the original IONvmeFamily, it's very likely to cause a kernel panic.
+  
+*7.Fix App Store with Null Ethernet + ssdt
   
 ## Not working:
 
