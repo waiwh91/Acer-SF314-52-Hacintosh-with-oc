@@ -1,8 +1,13 @@
-# Acer-SF314-52-Hacintosh-with-oc
+# Acer-SF314-52-Hacintosh-with-oc Support 11.0 Big Sur
 
 针对2018年Acer 蜂鸟 Swift 3 笔记本电脑的oc驱动
 
-支持macOS 10.15，在10.14可以使用，但是intel Wi-Fi无法驱动，itlwm仅在10.15上运行
+##无痛升级11.0 beta 6 基本上完全支持11.0，使用体验还行
+目前的问题：无法定位（因为itlwm走以太网，但是该efi支持usr-sse2的black802+itlwm，这个版本使用原生Wi-Fi配置，支持定位，目前usr-sse2版black802的release里alpha3可以用，但是不太稳定因此没有去搞
+
+
+支持macOS 10.15，在10.14可以使用，但是10.14下intel Wi-Fi无法驱动，itlwm仅在10.15及以上运行
+
 
 本引导程序在tonymacx论坛上的[efi](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh/blob/master/README.md)上进行了修改(主要原因是懒得搞voodooi2c的ssdt了白嫖真香)
 
@@ -40,6 +45,8 @@ CPU: I5-8250U
 8.摄像头
 
 9.睡眠，变频均正常
+
+10.蓝牙 使用zxystd的intel bluetooth驱动，并且可以正常开关蓝牙
 
 ## 不能够正常工作的
 
@@ -94,6 +101,8 @@ NVME：intel 600p
   with the original IONvmeFamily, it's very likely to cause a kernel panic.
   
 *7.Fix App Store with Null Ethernet + ssdt
+
+*8.Bluetooth : With the latest intel bluetooth firmmware by zxystd , the switch can work too.
   
 ## Not working:
 
