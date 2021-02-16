@@ -3,7 +3,6 @@
 针对2018年Acer 蜂鸟 Swift 3 笔记本电脑的oc驱动
 
 ##无痛升级11.0 beta 6 基本上完全支持11.0，使用体验还行
-目前的问题：无法定位（因为itlwm走以太网，但是该efi支持usr-sse2的black802+itlwm，这个版本使用原生Wi-Fi配置，支持定位，目前usr-sse2版black802的release里alpha3可以用，但是不太稳定因此没有去搞
 
 
 支持macOS 10.15，在10.14可以使用，但是10.14下intel Wi-Fi无法驱动，itlwm仅在10.15及以上运行
@@ -32,7 +31,7 @@ CPU: I5-8250U
 
 2.声卡ALC255，oc注入ID
 
-*3.intel网卡，使用itlwm驱动，进入macOS之后打开heliport即可进行网络配置
+*3.intel网卡，使用airportitlwm驱动，原生网络配置，支持定位，接力
 
 4.i2c触摸板：支持几乎所有的原生手势，滑动很流畅，但是有的时候会误判。。。
 
@@ -90,7 +89,7 @@ NVME：intel 600p
 
 *3.The build-in Intel WIFI -   USE [itlwm](https://github.com/OpenIntelWireless/itlwm)
 
-  you can use the Heliport app in the folder to connect to wifi
+  support the original airport, handoff and locating
 
 4.i2c touchpad：smooth
 
